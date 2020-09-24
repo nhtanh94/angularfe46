@@ -8,6 +8,13 @@ import { HeaderComponent } from "./buoi1/header/header.component";
 import { ContentComponent } from "./buoi1/content/content.component";
 import { SideBarComponent } from "./buoi1/side-bar/side-bar.component";
 import { FooterComponent } from "./buoi1/footer/footer.component";
+import { Buoi2Component } from "./buoi2/buoi2.component";
+import { BtHeaderComponent } from "./buoi2/bt-header/bt-header.component";
+import { IndexComponent } from "./buoi2/index/index.component";
+import { SliderComponent } from './buoi2/index/slider/slider.component';
+import { IndexContentComponent } from './buoi2/index/index-content/index-content.component';
+import { ItemComponent } from './buoi2/index/index-content/item/item.component';
+import { BtFooterComponent } from './buoi2/bt-footer/bt-footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +24,16 @@ import { FooterComponent } from "./buoi1/footer/footer.component";
     HeaderComponent,
     ContentComponent,
     SideBarComponent,
-    FooterComponent, //Các component sử dụng (lẫn nhau) trong module này.
+    FooterComponent,
+    Buoi2Component,
+    BtHeaderComponent,
+    IndexComponent,
+    SliderComponent,
+    IndexContentComponent,
+    ItemComponent,
+    BtFooterComponent,
+
+    //Các component sử dụng (lẫn nhau) trong module này.
   ],
   imports: [BrowserModule],
   providers: [],
